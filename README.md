@@ -42,14 +42,15 @@ We will release the url in **baidu drive** in some days.
 
 ## Citation
 
+
 If you use the codes provided here in your paper, please cite the following.
 
 ```
 @article{chen2019self,
-  title={Self-supervised learning of detailed 3d face reconstruction},
+  title={Self-supervised Learning of Detailed 3D Face Reconstruction},
   author={Chen, Yajing and Wu, Fanzi and Wang, Zeyu and Song, Yibing and Ling, Yonggen and Bao, Linchao},
-  journal={arXiv preprint arXiv:1910.11791},
-  year={2019}
+  journal={IEEE Transactions on Image Processing},
+  year={2020}
 }
 ```
 
@@ -89,3 +90,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
