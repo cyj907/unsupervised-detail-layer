@@ -33,7 +33,7 @@ six==1.15.0
 sqlparse==0.3.1
 tensorboard==1.15.0
 tensorflow-estimator==1.15.1
-tensorflow-gpu==1.15.0
+tensorflow-gpu==2.3.1
 termcolor==1.1.0
 tifffile==2020.7.24
 Werkzeug==1.0.1
