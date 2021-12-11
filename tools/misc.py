@@ -70,7 +70,7 @@ def detect_glassframe(rgb_img, seg_img):
     return glassframe
 
 
-def tf_detect_glassframe(rgb_img, seg_img):
+def tf_detect_glassframe(rgb_img, seg_img, G_list):
     # input range [0,1]
     dX = seg_img[:, :, 1:] - seg_img[:, :, :-1]
     dX = tf.pad(dX, ((0, 0), (0, 0), (0, 1)), "constant")

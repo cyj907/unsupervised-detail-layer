@@ -23,8 +23,10 @@ def compute_losses(image_load,
     tot_loss = float(0.)
 
     if args.landmark3d_weight > 0:
-        if args.is_fine_model is False:
+        if not args.is_fine_model:
             landmark3d_loss = losses.weighted_landmark_loss(landmark3d_load, ret_results['coarse']['ver']['landmark'])
+        else:
+            landmark3d_loss = 0.
         tot_loss = tot_loss + landmark3d_loss * args.landmark3d_weight
         tf.summary.scalar('landmark3d', landmark3d_loss)
 
